@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Amiri', serif;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    margin-bottom: 50px;
+    z-index: 10;
+    background-color: rgb(139, 128, 240);
+}
+
+.header ul{
+    text-align: center;
+}
+
+.header li{
+    margin: 20px;
+    list-style: none;
+    float: left;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+
+/*About*/
+.main{
+    position: relative;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    padding-bottom: 30px;
+}
+
+.main img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.right {
+    width: 500px;
+}
+
+.right h2{
+    text-align: center;
+    padding: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+/*Projects*/
+#projects{
+    position: relative;
+    margin: 250px 0 90px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: inline-block;
+    width: 400px;
+    margin: 20px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.5), 
+                -1px -1px 3px rgba(0,0,0,0.5);
+  }
+  
+  .card img{ 
+    margin: 20px 50px;
+    width: 300px;
+    height: 250px;
+  }
+  
+  .card h2,p{
+    text-align: center;
+    padding: 10px;
+  }
+
+.card a {
+    color: black;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgb(209, 206, 206);
+}
+
+/* Footer */
+#footer{
+    background-color: rgb(48, 47, 47);
+}
+#footer .social-icons {
+    display: flex;
+    justify-content: center;
+}
+#footer a, #footer p {
+    color: whitesmoke;
+}
+#footer a {
+    text-decoration: none;
+    margin: 70px 20px 50px;
+    padding: 10px 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+#footer a:hover {
+    background-color: royalblue;
+}
+#footer p{
+    padding-bottom: 70px;
+}
